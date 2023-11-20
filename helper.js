@@ -50,6 +50,11 @@ apiData.then((gameData) => {
     <p>Description : ${gameData[gameIndex].short_description}</p>
     </a>;
 </li>`;
+    document.body.scrollIntoView({
+      behavior: "smooth",
+      block: "end",
+      inline: "nearest",
+    });
   });
 });
 //pick a random number between 0 and the array length - 1
