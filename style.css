@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(102, 95, 125);
+}
+
+h1 {
+  color: white;
+}
+
+li {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+  margin: 10px;
+  background-color: rgb(57, 49, 82);
+  list-style: none;
+  border: solid #a199bd;
+}
+
+/* On mouse-over, add a deeper shadow */
+li:hover {
+  box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.5);
+  scale: 1.02;
+}
+
+/* Add some padding inside the card container */
+.container {
+  margin: 10px;
+}
+
+p {
+  color: white;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li p {
+  margin: 0px 10px;
+}
+
+li img {
+  margin: 10px;
+  border: solid white;
+}
+
+.cardTitle {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.button {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+  margin: 10px;
+  list-style: none;
+  border: solid #a199bd;
+  text-decoration: white;
+}
+
+.button:hover {
+  box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.5);
+  scale: 1.02;
+}
