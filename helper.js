@@ -57,6 +57,15 @@ apiData.then((gameData) => {
     });
   });
 });
+
+const topButton = document.querySelector("#backToTop");
+topButton.addEventListener("click", () => {
+  document.body.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+    inline: "nearest",
+  });
+});
 //pick a random number between 0 and the array length - 1
 //gamesArr.innerHTML shape from earlier. replace i with gameIndex.
 //search for game by developer
